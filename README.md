@@ -22,3 +22,10 @@ Requirements
     CUDA Toolkit: The sample requires the NVIDIA CUDA Toolkit to be installed. Ensure that your system has a compatible NVIDIA GPU.
     NPP Library: The NPP library is part of the CUDA Toolkit and provides optimized functions for image processing.
     C++ Compiler: A C++ compiler supporting C++11 or later.
+
+GPU Requirements
+
+The Laplace filter is computed on the GPU, so make sure your system has a compatible NVIDIA GPU with sufficient resources (memory, compute capability).
+Output
+
+The output of the program will display the image with the Laplace filter applied. The filtered image will highlight areas with significant intensity changes (edges).
